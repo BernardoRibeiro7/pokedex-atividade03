@@ -1,1 +1,44 @@
 :root{font-family:Inter,system-ui,-apple-system,Arial,sans-serif}*{box-sizing:border-box}body{margin:0}.app{min-height:100vh;background:#f4f6fa;color:#18243b}.app.dark{background:#0c1321;color:#eef3fa}header{background:linear-gradient(115deg,#dc304f,#ef7545);color:#fff;padding:45px max(24px,calc((100vw - 1160px)/2))}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;opacity:.8}h1{font-size:clamp(38px,6vw,62px);letter-spacing:-2px;margin:5px 0}.dot{color:#ffdb62}header p{max-width:550px;opacity:.9;margin:0}.theme{white-space:nowrap}button,input,select{font:inherit;border:0;border-radius:12px;padding:12px;cursor:pointer}button{background:#e9edf4;color:#202c41}button:hover{filter:brightness(.95)}main{max-width:1208px;padding:26px 24px 70px;margin:auto}.tabs{display:flex;gap:10px;margin-bottom:32px}.tabs button{font-weight:700}.tabs .active{background:#eb4c5c;color:#fff}.tabs span{opacity:.7;margin-left:6px}.section-heading{display:flex;justify-content:space-between;align-items:center;gap:16px}.section-heading h2,.trainers h2{font-size:28px;margin:0}.section-heading p,.trainers>p{opacity:.65}.counter{font-size:13px;opacity:.7}.filters{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 26px}.filters input{flex:2;min-width:200px}.filters select{flex:1;min-width:135px}.filters button{flex:0 0 auto}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:18px}.pokemon-card,.trainer-card{background:#fff;color:#1e2b40;border-radius:20px;box-shadow:0 6px 20px #0000000a;position:relative;overflow:hidden}.dark .pokemon-card,.dark .trainer-card{background:#1b283b;color:#edf3ff}.card-content{display:flex;flex-direction:column;align-items:center;background:transparent;color:inherit;width:100%;padding:22px 18px;text-align:center}.card-content img{height:135px;width:135px;object-fit:contain;transition:transform .2s}.card-content:hover img{transform:scale(1.08)}.number{align-self:flex-start;font-size:12px;font-weight:700;opacity:.55}.card-content h3{font-size:21px;margin:8px 0 10px}.types{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}.type{background:#dfe6ef;color:#223046;border-radius:20px;padding:5px 11px;font-size:12px;font-weight:700}.type.fire{background:#ffb99b}.type.water{background:#a8d9ff}.type.grass{background:#b8e5b5}.type.electric{background:#ffe493}.type.poison{background:#dfb4ed}.type.psychic{background:#ffc0d0}.type.rock,.type.ground{background:#dfc9a0}.type.ghost,.type.dragon{background:#c6c0ff}.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%;margin-top:20px;text-align:left}.mini-stats div{background:#f1f4f9;color:#26344b;border-radius:9px;padding:8px;display:flex;justify-content:space-between;gap:5px;font-size:11px}.dark .mini-stats div{background:#29384e;color:#f1f5ff}.favorite{position:absolute;right:9px;top:9px;z-index:1;background:transparent;font-size:25px;color:#eab02e}.overlay{position:fixed;inset:0;background:#020714bb;display:grid;place-items:center;z-index:10;padding:15px}.modal{position:relative;background:#fff;color:#17233a;border-radius:22px;width:min(100%,490px);max-height:94vh;overflow:auto;padding:25px}.modal>img{width:155px;height:155px;object-fit:contain;display:block;margin:auto}.modal h2{text-align:center;font-size:30px;margin:8px}.modal .types{margin-bottom:25px}.modal .number{display:block;text-align:center}.close{position:absolute;right:12px;top:12px}.stat{display:grid;grid-template-columns:100px 35px 1fr;gap:10px;align-items:center;font-size:12px;margin:11px 0}.bar{background:#e7eaf0;height:9px;border-radius:20px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#ffae57,#ed4c65);border-radius:20px}.primary{background:#eb4c5c;color:white;margin-top:20px;width:100%}.trainer-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:24px}.trainer-card{padding:22px}.trainer-heading{display:flex;gap:12px;align-items:center}.trainer-heading h3{margin:0 0 5px}.trainer-heading span{font-size:13px;opacity:.7}.avatar{height:50px;width:50px;display:grid;place-items:center;background:#fbd4dc;color:#c63c56;border-radius:14px;font-weight:900;font-size:23px}.trainer-pokemon{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.trainer-pokemon button{background:#f1f4f8;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;padding:7px;min-width:76px}.trainer-pokemon img{height:55px;width:55px;object-fit:contain}.empty{text-align:center;padding:65px 20px;background:#ffffff10;border-radius:18px}footer{text-align:center;padding:25px;font-size:12px;opacity:.5}@media(max-width:600px){header{padding:30px 20px}.top{flex-direction:column}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card-content{padding:15px 8px}.card-content img{width:105px;height:105px}.card-content h3{font-size:17px}.mini-stats{gap:4px}.mini-stats div{padding:6px 4px;font-size:10px}.filters>*{flex:1}.section-heading h2{font-size:23px}.stat{grid-template-columns:95px 30px 1fr}}
+/* Ajustes visuais: identidade de catálogo, menos efeitos e mais contraste */
+:root{font-family:"Segoe UI",Arial,sans-serif}
+.app{background:#f6f5f1;color:#242b30}
+.app.dark{background:#101719;color:#f0f1eb}
+header{background:#171f22;color:#f7f6f0;padding:36px max(24px,calc((100vw - 1160px)/2)) 42px;border-bottom:5px solid #df5047}
+header .top{align-items:center}
+.eyebrow{color:#aeb7b4;font-size:11px;letter-spacing:1.4px}
+h1{font-size:clamp(36px,5vw,56px);font-weight:850;letter-spacing:-2.5px}
+.dot{color:#e95b50}
+header p{color:#c7cfca;line-height:1.6;font-size:14px}
+.theme{background:#2b3638;color:#f7f6f0;border:1px solid #435052;padding:10px 14px;font-size:13px}
+main{padding-top:32px}
+.tabs{border-bottom:1px solid #d5d8d5;border-radius:0;gap:26px;margin-bottom:34px}
+.dark .tabs{border-color:#344143}
+.tabs button{border-radius:0;background:transparent;color:inherit;padding:13px 3px 16px;font-size:14px;font-weight:650;border-bottom:3px solid transparent}
+.tabs .active{background:transparent;color:inherit;border-color:#dd5147}
+.tabs span{font-size:11px;background:#e7e8e2;padding:3px 7px;border-radius:6px}
+.dark .tabs span{background:#2a3738}
+.section-heading h2,.trainers h2{font-size:25px;letter-spacing:-.7px}
+.section-heading p,.trainers>p{font-size:13px;margin:7px 0}
+.counter{font-size:12px}
+.filters{gap:9px;margin:23px 0 24px}
+.filters input,.filters select,.filters button{border:1px solid #d8dcda;background:#fff;color:#273236;border-radius:8px;font-size:13px;min-height:43px}
+.dark .filters input,.dark .filters select,.dark .filters button{background:#202c2e;color:#e7ece7;border-color:#39484a}
+.grid{grid-template-columns:repeat(auto-fill,minmax(208px,1fr));gap:14px}
+.pokemon-card,.trainer-card{border-radius:11px;border:1px solid #e2e4de;box-shadow:none;background:#fff}
+.dark .pokemon-card,.dark .trainer-card{background:#1c292b;border-color:#354346;color:#f0f3ee}
+.card-content{padding:17px 16px 16px}
+.card-content img{width:125px;height:125px}
+.card-content h3{font-size:18px;font-weight:750;letter-spacing:-.4px;margin:9px 0}
+.number{font-size:11px;letter-spacing:.6px}
+.type{border-radius:5px;font-size:10px;padding:5px 8px;text-transform:uppercase;letter-spacing:.35px}
+.mini-stats{margin-top:18px;gap:5px}
+.mini-stats div{border-radius:5px;background:#f4f5f2;font-size:10px;padding:7px}
+.dark .mini-stats div{background:#283638}
+.favorite{font-size:22px;color:#d69a29}
+.trainer-card{padding:20px}
+.avatar{background:#f1e2dd;color:#b34a42;border-radius:8px}
+.trainer-pokemon button{border-radius:7px}
+.modal{border-radius:13px}
+.primary{background:#d94f45;border-radius:7px}
+footer{font-size:11px;letter-spacing:.2px}
+@media(max-width:600px){header{padding:24px 18px 28px}.top{align-items:flex-start;gap:15px}main{padding:20px 12px 45px}.tabs{margin-bottom:26px}.grid{gap:8px}.pokemon-card{border-radius:8px}.card-content{padding:12px 8px}.card-content img{height:100px;width:100px}.card-content h3{font-size:16px}.mini-stats div{font-size:9px}.section-heading h2{font-size:22px}.filters input{flex-basis:100%}.filters select{min-width:120px}}
