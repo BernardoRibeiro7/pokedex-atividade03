@@ -1,0 +1,1 @@
+export const labels={hp:'HP',attack:'Ataque',defense:'Defesa',specialAttack:'At. Esp.',specialDefense:'Def. Esp.',speed:'Velocidade'};export const image=id=>'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/'+id+'.png';
