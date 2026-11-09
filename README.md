@@ -1,28 +1,41 @@
-# Pokédex — Atividade 03 (DIAW)
+# Pokédex — Atividade 03
 
-Projeto individual de Bernardo Machado Ribeiro — PUC Minas.
+Projeto que fiz para a disciplina de Desenvolvimento e Integração de Aplicações Web (DIAW), da PUC Minas.
 
-## Tecnologias
-React, Vite, JavaScript e CSS. Dados obtidos da [PokéAPI](https://pokeapi.co/).
+**Aluno:** Bernardo Machado Ribeiro
 
-## Executar
+## Sobre o projeto
+
+A ideia foi montar uma Pokédex para consultar os Pokémon da primeira geração. Dá para pesquisar pelo nome ou número, filtrar por tipo e abrir os detalhes de cada um.
+
+Também coloquei algumas funções extras, como favoritos, sorteio de Pokémon e opção de mudar entre tema claro e escuro.
+
+## Tecnologias usadas
+
+- React e Vite
+- JavaScript
+- CSS
+- PokéAPI, para buscar as informações dos Pokémon
+
+## Como rodar
+
+É só baixar o projeto, abrir a pasta no terminal e executar:
+
 ```bash
 npm install
 npm run dev
 ```
 
-Abra o endereço informado pelo Vite. É necessário acesso à internet para carregar dados e imagens.
+Depois, abra no navegador o endereço que aparecer no terminal. É preciso estar conectado à internet para carregar os Pokémon e as imagens.
 
-## Recursos
-- Lista dos 151 Pokémon originais
-- Busca por nome ou número
-- Filtro por tipo
-- Ordenação por número, nome e HP
-- Detalhes com atributos, altura e peso
-- Favoritos persistidos no navegador
-- Pokémon aleatório
-- Alternância de tema claro/escuro
-- Layout responsivo
+## O que dá para fazer
 
-## Observação
-Esta implementação utiliza a PokéAPI. Verifique se o professor exige especificamente o JSON local e funcionalidades de treinadores antes da entrega final.
+- Ver os 151 Pokémon da primeira geração
+- Pesquisar pelo nome ou número
+- Filtrar por tipo
+- Organizar por número, nome ou HP
+- Ver os atributos, a altura e o peso de cada Pokémon
+- Marcar e consultar os favoritos
+- Sortear um Pokémon aleatório
+- Trocar entre o modo claro e o escuro
+- Usar a Pokédex pelo computador ou celular
